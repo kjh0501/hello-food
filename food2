@@ -1,0 +1,16 @@
+import random
+
+foodlist= ["짜장면","짬뽕","탕슛","돈까스","우동"]
+for i in range(5):
+    food=random.choice(foodlist)
+    print(f"{i+1}.{food}")
+    
+#화면에 음식 리스트를 출력을 하고
+for i in foodlist:
+    print("1. 짜장면")
+    
+    # 리스트중에 먹고 싶은 메뉴가 없으면
+    # 우리가 추가해서 그중에서 추천 했으면 좋겠다
+    
+
+    
